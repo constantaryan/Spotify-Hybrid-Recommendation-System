@@ -27,6 +27,7 @@ song_name = st.text_input('Enter a song name:')
 st.write('You entered:', song_name)
 # lowercase the input
 song_name = song_name.lower()
+song_name = song_name.strip()
 
 # k recommndations
 k = st.selectbox('How many recommendations do you want?', [5,10,15,20], index=1)
