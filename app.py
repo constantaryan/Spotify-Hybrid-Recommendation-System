@@ -2,6 +2,8 @@ import streamlit as st
 from content_based_filtering import recommend
 from scipy.sparse import load_npz
 import pandas as pd
+from numpy import load
+from collaborative_filtering import collaborative_recommendation
 
 
 # transformed data path
