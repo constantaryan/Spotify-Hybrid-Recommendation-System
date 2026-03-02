@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip' 
-          
+
       - name: Install AWS CLI v2
         uses: unfor19/install-aws-cli-action@v1
         with:
@@ -38,7 +38,7 @@ jobs:
 
       - name: Run Appllication
         run: |
-          nohup streamlit run app.py --server.port 8000 &
+          nohup streamlit run app.py --server.port 8000 --server.headless true --browser.gatherUsageStats false &
           sleep 30 
 
       - name: Test App
