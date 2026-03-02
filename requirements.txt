@@ -9,3 +9,4 @@ dvc
 category_encoders
 dask[dataframe]
 dvc[s3]
+pytest
