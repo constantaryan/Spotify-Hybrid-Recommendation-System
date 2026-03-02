@@ -4,3 +4,8 @@
 /track_ids.npy
 /interaction_matrix.npz
 /transformed_hybrid_data.npz
+
+/User Listening History.csv
+/item_user_data
+/collab_filtered_data.csv
+/interaction_matrix.npz
