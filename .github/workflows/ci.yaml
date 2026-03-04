@@ -90,7 +90,7 @@ jobs:
             aws deploy create-deployment \
             --application-name hybridrecommcodedeploy1 \
             --deployment-config-name CodeDeployDefault.AllAtOnce \
-            --deployment-group-name hybridrecocodedeploybucket \
+            --deployment-group-name hybridrecomdeploymentgroup1 \
             --s3-location bucket=hybridrecocodedeploybucket,key=deployment.zip,bundleType=zip \
             --file-exists-behavior OVERWRITE \
             --region ap-south-1
